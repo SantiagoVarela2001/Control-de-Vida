@@ -1,0 +1,32 @@
+/* Fondo principal */
+body, html, #root, div#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+   
+  }
+    
+  /* Barras de navegación y encabezados */
+  .navbar, h1, h2, h3 {
+    background-color: #ADD8E6;
+    color: #333333;
+  }
+  
+  /* Botones y enlaces */
+  .btn, a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  /* Fondos de secciones */
+  .section {
+    background-color: #F0F0F0;
+  }
+

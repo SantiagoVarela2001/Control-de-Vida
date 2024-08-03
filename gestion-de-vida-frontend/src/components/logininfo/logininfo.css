@@ -1,0 +1,28 @@
+/* logininfo.css */
+
+.login-info-card {
+    background-color: #ffffff48;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 100%;
+    width: 350px;
+    height: 450px;
+    border: none;
+  }
+  
+  .login-info-logo {
+    width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  .login-info-title {
+    margin-bottom: 1rem;
+    color: #333333;
+  }
+  
+  .login-info-text {
+    color: #333333;
+  }
+  

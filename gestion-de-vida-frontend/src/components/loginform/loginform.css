@@ -1,0 +1,74 @@
+/* loginform.css */
+
+.login-background {
+  background: #4AC29A;
+  background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);
+  background: linear-gradient(to right, #BDFFF3, #4AC29A);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-container {
+  background-color: #ffffff35;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 100%;
+  width: 350px;
+  height: 450px;
+}
+
+.textlogin {
+  border: 2px;
+  border-color: #333333;
+}
+
+.login-form-container h1 {
+  margin-bottom: 1.5rem;
+  color: #333333;
+  border-radius: 10px;
+}
+
+.login-form-col, .login-info-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.form-label {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #333333;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #7FFFD4;
+  border-color: #7FFFD4;
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #005f73;
+  border-color: #005f73;
+}
+
+.register-link {
+  display: block;
+  margin-top: 1rem;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.register-link:hover {
+  color: #005f73;
+}
