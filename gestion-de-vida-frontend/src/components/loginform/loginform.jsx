@@ -27,10 +27,10 @@ const LoginForm = () => {
     <div className='login-background'>
       <Container>
         <Row className="justify-content-md-center align-items-center">
-          <Col md="5" className="login-info-col">
+          <Col md="5" className="login-info-col no-padding">
             <LoginInfo />
           </Col>
-          <Col md="5" className="login-form-col">
+          <Col md="5" className="login-form-col no-padding">
             <div className="login-form-container">
               <h1 className="textlogin">Login</h1>
               <Form onSubmit={handleSubmit}>
@@ -74,3 +74,4 @@ const LoginForm = () => {
 };
 
 export default LoginForm;
+

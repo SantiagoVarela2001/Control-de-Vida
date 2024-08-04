@@ -1,26 +1,26 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Card from '../card/card';
+import Tarjeta from '../card/card';
 import './home.css';
 
 const Home = () => {
   return (
-    <Container className="home-container home-background">
+    <Container className="home">
       <Row className="justify-content-md-center">
         <Col md="12">
           <h1 className="home-title">GESTIÓN DE VIDA</h1>
         </Col>
       </Row>
-      <Row className="card-row">
+      <Row className="card-row justify-content-md-center">
         {[
-          { path: '/path1', titulo: 'Control de Gastos' },
-          { path: '/path2', titulo: 'Tareas Diarias' },
-          { path: '/path3', titulo: 'Notas' },
-          { path: '/path4', titulo: 'Recordatorios' },
-          { path: '/path5', titulo: 'Entrenamiento' },
+          { path: '/path1', titulo: 'GASTOS' },
+          { path: '/path2', titulo: 'TAREAS' },
+          { path: '/path3', titulo: 'NOTAS' },
+          { path: '/path4', titulo: 'RECORDATORIOS' },
+          { path: '/path5', titulo: 'ENTRENAMIENTO' },
         ].map((item, index) => (
-          <Col md="2" key={index} className="card-col">
-            <Card path={item.path} titulo={item.titulo} />
+          <Col xs={12} sm={6} md={4} lg={2} key={index} className="card-col">
+            <Tarjeta path={item.path} titulo={item.titulo} />
           </Col>
         ))}
       </Row>

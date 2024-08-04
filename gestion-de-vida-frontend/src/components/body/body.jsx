@@ -4,11 +4,11 @@ import "./body.css"
 
 const body = () => {
   return (
-    <div className="container">
+    <div>
 
-      <LoginForm/>
+      <LoginForm />
 
-  </div>
+    </div>
   )
 }
 

@@ -4,7 +4,7 @@ import "../src/app.css"
 
 const App = () => {
   return (
-    <div className="container">
+    <div>
       <Body/>
     </div>
   )
