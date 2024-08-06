@@ -18,7 +18,7 @@ const Home = () => {
       </Row>
       <Row className="card-row justify-content-md-center">
         {[
-          { path: '/path1', titulo: 'GASTOS', image: expenses },
+          { path: '/expenses', titulo: 'GASTOS', image: expenses },
           { path: '/path2', titulo: 'TAREAS', image: tasks },
           { path: '/path3', titulo: 'NOTAS', image: notes },
           { path: '/path4', titulo: 'RECORDATORIOS', image: reminders },

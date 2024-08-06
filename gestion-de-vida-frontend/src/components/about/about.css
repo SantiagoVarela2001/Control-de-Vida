@@ -1,0 +1,23 @@
+.sobrenosotros {
+    padding: 40px 20px;
+    background-color: #ffff;
+    border-radius: 8px;
+  }
+  
+  .sobrenosotros-title {
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ffff;
+  }
+  
+  .sobrenosotros-text {
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+
+  .text-container{
+    margin-top: 50px;
+  }

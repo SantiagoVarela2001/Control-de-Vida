@@ -1,7 +1,7 @@
 .login-background {
-  background: #4AC29A;
-  background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);
-  background: linear-gradient(to right, #BDFFF3, #4AC29A);
+  background: #ffffff;
+  background: -webkit-linear-gradient(to right, #c6fff4, #a4fbde);
+  background: linear-gradient(to right, #c6fff4, #a4fbde);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 .login-form-container {
-  background-color: #ffffff35;
+  background-image: url('../../../public/background.jpg');
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
